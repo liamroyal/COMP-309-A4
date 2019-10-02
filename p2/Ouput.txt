@@ -1,0 +1,153 @@
+------------------KNeighbors Classifier------------------
+
+   Actual  Predicted
+0       0          0
+1       0          0
+2       1          0
+3       1          1
+4       0          0
+
+Classification Accuracy: 0.84
+Precision: 0.83
+Recall: 0.62
+F1 score: 0.71
+AUC: 0.76
+
+------------------Naive Bayes Classifier------------------
+
+   Actual  Predicted
+0       0          0
+1       0          0
+2       1          0
+3       1          1
+4       0          0
+
+Classification Accuracy: 0.80
+Precision: 0.79
+Recall: 0.34
+F1 score: 0.47
+AUC: 0.64
+
+------------------SVC Classifier------------------
+
+   Actual  Predicted
+0       0          0
+1       0          0
+2       1          0
+3       1          1
+4       0          0
+
+Classification Accuracy: 0.80
+Precision: 0.79
+Recall: 0.27
+F1 score: 0.40
+AUC: 0.62
+
+------------------DecisionTree Classifier------------------
+
+   Actual  Predicted
+0       0          0
+1       0          0
+2       1          0
+3       1          1
+4       0          0
+
+Classification Accuracy: 0.82
+Precision: 0.82
+Recall: 0.60
+F1 score: 0.69
+AUC: 0.74
+
+/usr/pkg/lib/python3.7/site-packages/sklearn/ensemble/forest.py:245: FutureWarning: The default value of n_estimators will change from 10 in version 0.20 to 100 in 0.22.
+  "10 in version 0.20 to 100 in 0.22.", FutureWarning)
+------------------RandomForest Classifier------------------
+
+   Actual  Predicted
+0       0          0
+1       0          0
+2       1          0
+3       1          1
+4       0          0
+
+Classification Accuracy: 0.85
+Precision: 0.84
+Recall: 0.59
+F1 score: 0.69
+AUC: 0.76
+
+------------------AdaBoost Classifier------------------
+
+   Actual  Predicted
+0       0          0
+1       0          0
+2       1          0
+3       1          1
+4       0          0
+
+Classification Accuracy: 0.86
+Precision: 0.85
+Recall: 0.59
+F1 score: 0.70
+AUC: 0.77
+
+------------------Gradient Boosting Classifier------------------
+
+   Actual  Predicted
+0       0          0
+1       0          0
+2       1          0
+3       1          1
+4       0          0
+
+Classification Accuracy: 0.87
+Precision: 0.86
+Recall: 0.59
+F1 score: 0.70
+AUC: 0.77
+
+------------------LinearDescriminantAnalysis Classifier------------------
+
+   Actual  Predicted
+0       0          0
+1       0          0
+2       1          0
+3       1          0
+4       0          0
+
+Classification Accuracy: 0.81
+Precision: 0.79
+Recall: 0.38
+F1 score: 0.51
+AUC: 0.66
+
+------------------MLP Classifier------------------
+
+   Actual  Predicted
+0       0          0
+1       0          0
+2       1          0
+3       1          1
+4       0          0
+
+Classification Accuracy: 0.83
+Precision: 0.82
+Recall: 0.50
+F1 score: 0.63
+AUC: 0.72
+
+/usr/pkg/lib/python3.7/site-packages/sklearn/linear_model/logistic.py:432: FutureWarning: Default solver will be changed to 'lbfgs' in 0.22. Specify a solver to silence this warning.
+  FutureWarning)
+------------------LogisticRegression Classifier------------------
+
+   Actual  Predicted
+0       0          0
+1       0          0
+2       1          0
+3       1          1
+4       0          0
+
+Classification Accuracy: 0.82
+Precision: 0.81
+Recall: 0.36
+F1 score: 0.50
+AUC: 0.66

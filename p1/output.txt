@@ -1,0 +1,169 @@
+-----------LINEAR REGRESSION-----------
+
+-----------Actual vs Predicted-----------
+   Actual    Predicted
+0    1935  2388.708459
+1     489  -191.582016
+2    4573  4317.415735
+3    4551  6464.067105
+4     552   231.807125
+
+-----------Error values-----------
+Mean Absolute Error: 860.74
+Mean Squared Error: 2136114.59
+Root Mean Squared Error: 1461.55
+R-squared Error: 0.87
+Execution Time: 0.01
+
+-----------K-NEIGHBOURS REGRESSION-----------
+
+-----------Actual vs Predicted-----------
+   Actual    Predicted
+0    1935  1841.624136
+1     489   582.667574
+2    4573  4510.901419
+3    4551  4674.085281
+4     552   651.611242
+
+-----------Error values-----------
+Mean Absolute Error: 458.90
+Mean Squared Error: 797039.56
+Root Mean Squared Error: 892.77
+R-squared Error: 0.95
+Execution Time: 0.49
+
+-----------RIDGE REGRESSION-----------
+
+-----------Actual vs Predicted-----------
+   Actual    Predicted
+0    1935  2389.665787
+1     489  -193.464012
+2    4573  4319.395668
+3    4551  6464.360947
+4     552   227.793579
+
+-----------Error values-----------
+Mean Absolute Error: 861.29
+Mean Squared Error: 2136130.20
+Root Mean Squared Error: 1461.55
+R-squared Error: 0.87
+Execution Time: 0.01
+
+-----------DECISION TREE REGRESSION-----------
+
+-----------Actual vs Predicted-----------
+   Actual  Predicted
+0    1935     1779.0
+1     489      489.0
+2    4573     3696.0
+3    4551     3881.0
+4     552      552.0
+
+-----------Error values-----------
+Mean Absolute Error: 374.35
+Mean Squared Error: 592779.97
+Root Mean Squared Error: 769.92
+R-squared Error: 0.96
+Execution Time: 0.15
+
+-----------RANDOM FOREST REGRESSION-----------
+
+-----------Actual vs Predicted-----------
+   Actual  Predicted
+0    1935     1779.0
+1     489      489.0
+2    4573     3696.0
+3    4551     3696.0
+4     552      524.0
+
+-----------Error values-----------
+Mean Absolute Error: 370.06
+Mean Squared Error: 563555.13
+Root Mean Squared Error: 750.70
+R-squared Error: 0.97
+Execution Time: 0.15
+
+-----------GRADIENT BOOSTING REGRESSION-----------
+
+-----------Actual vs Predicted-----------
+   Actual    Predicted
+0    1935  1944.826018
+1     489   417.273622
+2    4573  4970.562002
+3    4551  3994.677857
+4     552   678.986105
+
+-----------Error values-----------
+Mean Absolute Error: 427.24
+Mean Squared Error: 614010.22
+Root Mean Squared Error: 783.59
+R-squared Error: 0.96
+Execution Time: 0.81
+
+-----------SGD REGRESSION-----------
+
+-----------Actual vs Predicted-----------
+   Actual     Predicted
+0    1935 -1.139457e+08
+1     489 -3.430604e+07
+2    4573  4.191328e+06
+3    4551  9.548565e+06
+4     552 -1.221612e+08
+
+-----------Error values-----------
+Mean Absolute Error: 59548375.79
+Mean Squared Error: 5517132288014041.00
+Root Mean Squared Error: 74277400.92
+R-squared Error: -340130004.23
+Execution Time: 0.67
+
+-----------SVR REGRESSION-----------
+
+-----------Actual vs Predicted-----------
+   Actual    Predicted
+0    1935  2359.431461
+1     489  2353.059980
+2    4573  2446.572060
+3    4551  2458.333974
+4     552  2362.645558
+
+-----------Error values-----------
+Mean Absolute Error: 2781.43
+Mean Squared Error: 18249726.73
+Root Mean Squared Error: 4271.97
+R-squared Error: -0.13
+Execution Time: 82.54
+
+-----------LINEAR SVR REGRESSION-----------
+
+-----------Actual vs Predicted-----------
+   Actual    Predicted
+0    1935  2408.951923
+1     489  -151.667863
+2    4573  4338.469282
+3    4551  5583.302223
+4     552  -173.574011
+
+-----------Error values-----------
+Mean Absolute Error: 1099.59
+Mean Squared Error: 3666676.83
+Root Mean Squared Error: 1914.86
+R-squared Error: 0.77
+Execution Time: 0.17
+
+-----------MLP REGRESSION-----------
+
+-----------Actual vs Predicted-----------
+   Actual    Predicted
+0    1935  1981.045549
+1     489   495.117349
+2    4573  3929.686335
+3    4551  5839.881554
+4     552   219.782682
+
+-----------Error values-----------
+Mean Absolute Error: 697.61
+Mean Squared Error: 1556435.96
+Root Mean Squared Error: 1247.57
+R-squared Error: 0.90
+Execution Time: 120.83
